@@ -24,4 +24,4 @@ def contour_detection(image_path):
         return img_contours, list(contours)
     except Exception as e:
         print(f"Error: {e}")
-        return None, None
+        return None, None 
